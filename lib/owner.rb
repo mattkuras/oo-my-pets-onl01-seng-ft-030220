@@ -48,9 +48,9 @@ class Owner
     array 
   end
   
-  def buy_cat(cat)
-    Cat.all.each do |kitty|
-      if cat == kitty.name 
+  def buy_cat(cat_name)
+    Cat.all.each do |cat|
+      if cat_name == cat.name 
         kitty.owner = self
         binding.pry 
       end
