@@ -42,7 +42,7 @@ class Owner
    array = []
     Dog.all.map do |dog|
       if dog.owner == self 
-        array << cat
+        array << dog 
       end
     end
     array 
