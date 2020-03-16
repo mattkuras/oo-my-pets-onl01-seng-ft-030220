@@ -16,4 +16,6 @@ class Dog
     @@all_dogs
   end
   
+  
+  
 end
