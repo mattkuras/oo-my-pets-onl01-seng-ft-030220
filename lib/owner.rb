@@ -49,7 +49,11 @@ class Owner
   end
   
   def buy_cat(cat)
-    cat.name.owner = self 
+    Cat.all.each do |kitty|
+      if cat == kitty.name 
+        kitty.owner = self
+      end
+    end
   end
     
   
