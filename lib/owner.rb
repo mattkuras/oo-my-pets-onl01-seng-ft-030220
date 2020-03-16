@@ -28,9 +28,10 @@ class Owner
 #  
   def cats 
    # binding.pry 
+   array = []
     Cat.all.map do |cat|
       if cat.owner == self 
-        cat
+        array << cat
       end
     end
   end
