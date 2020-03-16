@@ -3,7 +3,6 @@ class Owner
   
   attr_reader :name, :species 
   @@all = []
-  @pets = self.cats 
   def initialize(name, species = "human")
     @name = name  
     @species = species 
@@ -76,7 +75,7 @@ class Owner
   end
   
   def sell_pets
-    
+    pets = self.cats 
   end
     
   
