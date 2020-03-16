@@ -30,7 +30,6 @@ class Owner
    # binding.pry 
     Cat.all.map do |cat|
       if cat.owner == self 
-        binding.pry 
         cat
       end
     end
