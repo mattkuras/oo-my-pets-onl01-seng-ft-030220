@@ -3,7 +3,7 @@ class Owner
   
   attr_reader :name, :species 
   @@all = []
-  @pets = 
+  @pets = [self.cats, self.dogs].flatten 
   def initialize(name, species = "human")
     @name = name  
     @species = species 
