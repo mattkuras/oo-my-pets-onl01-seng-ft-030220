@@ -26,7 +26,11 @@ class Owner
   end
   
   def cats 
-    @@all_cats.each do |cat|
-      if cat.
+    @@all_cats.map do |cat|
+      if cat.owner == self 
+        cat
+      end
+    end
+  end
   
 end
