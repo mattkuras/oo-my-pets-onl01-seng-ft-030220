@@ -28,7 +28,7 @@ class Owner
   
   def cats 
    # binding.pry 
-    @@all_cats.map do |cat|
+    Cats.all.map do |cat|
       if cat.owner == self 
         cat
       end
