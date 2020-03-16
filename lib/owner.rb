@@ -52,6 +52,7 @@ class Owner
     Cat.all.each do |kitty|
       if cat == kitty.name 
         kitty.owner = self
+        binding.pry 
       end
     end
   end
