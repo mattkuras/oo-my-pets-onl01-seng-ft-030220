@@ -25,11 +25,12 @@ class Owner
   def self.reset_all
     @@all = []
   end
-#  binding.pry 
+#  
   def cats 
    # binding.pry 
     Cat.all.map do |cat|
       if cat.owner == self 
+        binding.pry 
         cat
       end
     end
