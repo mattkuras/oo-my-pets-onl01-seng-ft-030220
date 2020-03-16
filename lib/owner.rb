@@ -25,7 +25,7 @@ class Owner
   def self.reset_all
     @@all = []
   end
-  
+  binding.pry 
   def cats 
    # binding.pry 
     @@all_cats.map do |cat|
