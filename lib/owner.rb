@@ -21,6 +21,9 @@ class Owner
     @@all.length 
   end 
   
+  def self.reset 
+    @@all = []
+  end
   
   
   
