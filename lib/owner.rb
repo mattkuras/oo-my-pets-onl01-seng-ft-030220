@@ -25,6 +25,8 @@ class Owner
     @@all = []
   end
   
-  
+  def cats 
+    @@all_cats.each do |cat|
+      if cat.
   
 end
