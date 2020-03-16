@@ -16,6 +16,5 @@ class Owner
     @@all
   end
   
-  def 
   
 end
