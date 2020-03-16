@@ -1,3 +1,4 @@
+require 'pry'
 class Owner
   
   attr_reader :name, :species 
@@ -27,6 +28,7 @@ class Owner
   
   def cats 
     @@all_cats.map do |cat|
+      binding.pry
       if cat.owner == self 
         cat
       end
