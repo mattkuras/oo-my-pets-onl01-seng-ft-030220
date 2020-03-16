@@ -82,5 +82,8 @@ class Owner
     end
   end
     
+  def list_pets
+    puts self.pets 
+  end     
   
 end
