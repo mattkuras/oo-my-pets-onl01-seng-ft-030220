@@ -48,4 +48,7 @@ class Owner
     array 
   end
   
+  def buy_cat 
+    
+  
 end
